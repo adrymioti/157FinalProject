@@ -1,7 +1,7 @@
 name = "157FinalProject"
 version = "0.1.0"
 keywords = ["math"]
-defaultTargets = ["«157FinalProject»"]
+defaultTargets = ["GradientDescentFormalization"]
 
 [leanOptions]
 pp.unicode.fun = true # pretty-prints `fun a ↦ b`
@@ -15,4 +15,4 @@ name = "mathlib"
 scope = "leanprover-community"
 
 [[lean_lib]]
-name = "«157FinalProject»"
+name = "GradientDescentFormalization"
