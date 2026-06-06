@@ -3,7 +3,14 @@ import Mathlib.Order.Filter.Basic
 import GradientDescentFormalization.Basics
 import GradientDescentFormalization.ErrorSequence
 
-set_option linter.style.whitespace false
+/-! # Gradient Descent Formalization - Convergence
+In this file I am proving:
+- the gradient descent contraction condition
+- the non contraction condition
+- the fact that a geometric sequence converges to zero
+- the fact that error sequence converges to zero
+- two ways of showing that the gradient descent sequence
+converges to the minimizer. -/
 
 open Filter
 open Topology

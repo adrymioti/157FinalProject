@@ -8,18 +8,18 @@ def quadratic(x, c):
 
 def gd_stepfunction(x, alpha, c):
     "One gradient descent step for f(x) = (x - c)^2"
-    "Since f'(x) = 2(x - c) the update is:"
+    "Since f'(x) = 2(x - c) the update is: "
     "x_(n + 1) = x_n - 2 alpha (x_n - c)"
     return x - 2 * alpha * (x - c)
 
 def gradientdescent(alpha, c, x0, steps):
     "Generates the gradient descent sequence"
     "with the following parameters:"
-    "   alpha: step size"
-    "   c: minimizer of f(x)"
-    "   x0: initial condition"
-    "   steps: number of iterations"
-    "This returns a numpy array that conatins"
+    "  - alpha: step size"
+    "  - c: minimizer of f(x)"
+    "  - x0: initial condition"
+    "  - steps: number of iterations"
+    "This returns a numpy array that conatins: "
     "   x_0, x_1, ... , x_steps"
     xs = [x0]
 

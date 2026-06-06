@@ -1,7 +1,14 @@
 import Mathlib
 import GradientDescentFormalization.Basics
 
-set_option linter.style.whitespace false
+/-! # Gradient Descent Formalization - Error Sequence
+In this file I am defining
+- the error sequence
+Then I am proving
+- that the error sequence has initial value of x0 - c
+- that the error sequence follows the structure of a geometric sequence
+- the error sequence has a closed form
+- that each successive error is not larger than the previous one -/
 
 namespace GradientDescentFormalization
 
