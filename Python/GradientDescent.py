@@ -49,7 +49,7 @@ def plottingsequence(alpha, c=3.0, x0=10.0, steps=25):
     plt.ylabel("x_n")
     plt.title(f"Gradient Descent Sequence, alpha = {alpha}")
     plt.savefig(f"Python/plots/sequence_alpha_{alpha}.png")
-    plt.show
+    plt.show()
 
 def plottingerror(alpha, c=3.0, x0=10.0, steps=25):
     "Plotting |x_n - c| over time"
@@ -62,7 +62,7 @@ def plottingerror(alpha, c=3.0, x0=10.0, steps=25):
     plt.ylabel("Absolute Error")
     plt.title(f"Error Decay, alpha = {alpha}")
     plt.savefig(f"Python/plots/error_alpha_{alpha}.png")
-    plt.show
+    plt.show()
 
 def plottingfunctionvalues(alpha, c=3.0, x0=10.0, steps=25):
     "Plotting f(x) over time"
