@@ -89,11 +89,11 @@ Contains:
 - definition of the recursive gradient descent sequence
 
 Main definitions:
-    ```lean
+```lean
 quadratic
 gdStep
 gdSequence
-    ```
+```
 
 --- 
 
@@ -134,21 +134,21 @@ $$
 
 Build:
 
-    ```bash
+```bash
 lake build
-    ```
+```
 
 Build a specific file:
 
-    ```bash
+```bash
 lake build GradientDescentFormalization.Basics
-    ```
+```
 
 Open in VSCode:
 
-    ```bash
+```bash
 code .
-    ```
+```
 
 ---
 
@@ -156,9 +156,9 @@ code .
 
 If python is installed run:
 
-    ```bash
+```bash
 python3 Python/GradientDescent.py
-    ```
+```
 
 If python is not installed it can be ran in Google Colab:
 [Python Experiments](https://colab.research.google.com/drive/1La4otMWQJDwTL_Z36srPPA_sSvxumqVo?usp=sharing)
